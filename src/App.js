@@ -1,14 +1,10 @@
-import '../src/pagesUser/components/header/SupHeader.css'
-import '../src/pagesUser/components/footer/Footer.css'
-import Footer from './pagesUser/components/footer/Footer';
-import SupHeader from './pagesUser/components/header/SupHeader';
+import "./App.css";
+
 function App() {
-	return (
-    <div>
-      <SupHeader/>
-      <Footer/>
-    </div>
-  )
+	return <div className="App">
+    <h1></h1>
+    <p>Welcome </p>
+  </div>;
 }
 
 export default App;

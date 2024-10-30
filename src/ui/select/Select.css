@@ -1,0 +1,17 @@
+
+
+.select select {
+  font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+padding: 10px 24px;
+background-color: #F1F3F7;
+color: #888 ; 
+}
+
+option {
+  font-size: 16px;
+}
+
