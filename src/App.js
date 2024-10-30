@@ -1,9 +1,8 @@
-import "./App.css";
+import '../src/pagesUser/components/header/SupHeader.css'
 
 function App() {
 	return <div className="App">
-    <h1></h1>
-    <p>Welcome </p>
+
   </div>;
 }
 
