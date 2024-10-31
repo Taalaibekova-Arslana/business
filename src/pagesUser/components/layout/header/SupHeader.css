@@ -3,11 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container{
-    max-width: 1440px;
-    width: 80%;
-    margin: 0 auto;
-}
+
 .logo1{
     margin-top: 10px;
     margin-bottom: 10px;

@@ -3,6 +3,7 @@ import logo1 from "../../../../assets/img/logo.png";
 import logo2 from "../../../../assets/img/logo copy.png";
 import plus from "../../../../assets/img/plus.svg";
 import "./SupHeader.css";
+import { Link } from "react-router-dom";
 
 const SupHeader = () => {
 	return (
@@ -10,9 +11,13 @@ const SupHeader = () => {
 			<div className="container">
 				<div className="header">
 					<div className="flex">
-						<img className="logo1" src={logo1} alt="" />
+						<Link to="/mashinakg">
+							<img className="logo1" src={logo1} alt="" />
+						</Link>
 						<div className="block"></div>
-						<img className="logo2" src={logo2} alt="" />
+						<Link to="/housekg">
+							<img className="logo2" src={logo2} alt="" />
+						</Link>
 					</div>
 					<div className="button">
 						<button className="btn"> Войти</button>
