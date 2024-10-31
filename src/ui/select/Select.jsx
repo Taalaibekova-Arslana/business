@@ -13,7 +13,6 @@ const Select = ({ options, name, id, placeholder, className }) => {
 						{option.label}
 					</option>
 				))}
-				<p>;oiirehovie</p>
 			</select>
 		</div>
 	);
